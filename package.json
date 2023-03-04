@@ -1,0 +1,23 @@
+{
+  "name": "simple-loader-runner",
+  "version": "1.0.0",
+  "description": "简易版的loader-runner",
+  "main": "index.js",
+  "scripts": {
+    "runner": "node runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinYuanGuo/simple-loader-runner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XinYuanGuo/simple-loader-runner/issues"
+  },
+  "homepage": "https://github.com/XinYuanGuo/simple-loader-runner#readme",
+  "devDependencies": {
+    "loader-runner": "^4.3.0"
+  }
+}

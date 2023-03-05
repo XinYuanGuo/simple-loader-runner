@@ -1,4 +1,4 @@
-const { runLoaders } = require("loader-runner");
+const { runLoaders } = require("./loader-runner/loader-runner");
 const path = require("path");
 const fs = require("fs");
 
@@ -60,6 +60,7 @@ runLoaders(
   {
     resource,
     loaders,
+    context: {},
     readResource: fs.readFile,
   },
   (err, result) => {

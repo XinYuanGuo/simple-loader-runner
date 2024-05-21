@@ -2,6 +2,8 @@ const { runLoaders } = require("./loader-runner/loader-runner");
 const path = require("path");
 const fs = require("fs");
 
+console.log('test');
+
 const entryFile = path.resolve(__dirname, "src/index.js");
 
 let request = `inline-loader1!inline-loader2!${entryFile}`;

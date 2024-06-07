@@ -2,7 +2,7 @@ const { runLoaders } = require("./loader-runner/loader-runner");
 const path = require("path");
 const fs = require("fs");
 
-console.log('test');
+console.log('testB');
 
 const entryFile = path.resolve(__dirname, "src/index.js");
 
